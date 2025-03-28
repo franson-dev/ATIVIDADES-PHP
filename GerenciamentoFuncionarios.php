@@ -64,10 +64,3 @@ echo "Senha alterada com sucesso.\n";
 // Testando acesso direto (válido e inválido)
 // Acesso direto ao nome (válido, pois é público)
 echo "\nAcesso direto ao nome: {$funcionario->nome}\n";
-
-// Tentativa de acessar salário diretamente (inválido, pois é protegido)
-// echo $funcionario->salario; // Isto gerará um erro
-
-// Tentativa de acessar senha diretamente (inválido, pois é privado)
-// echo $funcionario->senha; // Isto gerará um erro
-
